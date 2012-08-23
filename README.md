@@ -1,8 +1,30 @@
-Tesseract
-==============
+# Tesseract for node.js
 
-A simple wrapper for the Tesseract OCR package
+A simple wrapper for the Tesseract OCR package for node.js
 
-##Installation
+## Installation
 npm install node-tesseract
 
+## Usage
+
+```
+var tesseract = require('node-tesseract');
+
+// Recognise text of any language in any format
+tesseract.process(__dirname + '/path/to/image.jpg',function(err, text) {
+	if(err) {
+		console.error(err);
+	} else {
+		console.log(text);
+	}
+});
+
+// Recognise German text in a single uniform block of text
+tesseract.process(__dirname + '/path/to/image.jpg',function(err, text) {
+	if(err) {
+		console.error(err);
+	} else {
+		console.log(text);
+	}
+}, 'deu', 6);
+```
