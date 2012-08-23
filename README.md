@@ -7,7 +7,7 @@ npm install node-tesseract
 
 ## Usage
 
-```
+```JavaScript
 var tesseract = require('node-tesseract');
 
 // Recognise text of any language in any format
