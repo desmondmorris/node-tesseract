@@ -5,6 +5,11 @@ A simple wrapper for the Tesseract OCR package for node.js
 ## Installation
 npm install node-tesseract
 
+## Versions
+* **0.0.3**: Added support for custom preprocessors, OTB Preprocessor using ImageMagick 'convert'
+* **0.0.2**: Refactored to support tesseract 3.01, added language parameter, config parameter, documentation
+* **0.0.1**: Initial version from Desmond Morris
+
 ## Usage
 
 ```JavaScript
