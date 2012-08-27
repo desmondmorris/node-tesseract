@@ -12,6 +12,9 @@
     "tesseract",
     "ocr"
   ],
+  "dependencies": {
+    "tmp": ">= 0.0.14"
+  },
   "devDependencies": {},
   "license": "MIT",
   "engine": {
