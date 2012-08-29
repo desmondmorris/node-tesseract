@@ -1,16 +1,17 @@
 {
-  "name": "node-tesseract",
-  "version": "0.0.3",
-  "author": "Joscha Feth <joscha@feth.com>, Desmond Morris <hi@desmondmorris.com>",
+  "name": "nodecr",
+  "version": "0.0.4",
+  "author": "Joscha Feth <joscha@feth.com>",
   "description": "A simple wrapper for the Tesseract OCR package",
-  "main": "./lib/tesseract.js",
+  "main": "./lib/nodecr.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/joscha/node-tesseract/"
+    "url": "https://github.com/joscha/nodecr/"
   },
   "keywords": [
     "tesseract",
-    "ocr"
+    "ocr",
+    "text recognition"
   ],
   "dependencies": {
     "tmp": ">= 0.0.14"
