@@ -3,7 +3,7 @@
 A simple wrapper for the Tesseract OCR package for node.js
 
 ## Installation
-npm install nodecr
+npm install node-tesseract
 
 ## Versions
 * **0.0.4**: Changed name to nodecr and published node module (formerly node-tesseract)
