@@ -1,12 +1,12 @@
 {
-  "name": "nodecr",
+  "name": "node-tesseract",
   "version": "0.0.4",
-  "author": "Joscha Feth <joscha@feth.com>",
+  "author": "Joscha Feth <joscha@feth.com>, Desmond Morris <hi@desmondmorris.com>",
   "description": "A simple wrapper for the Tesseract OCR package",
-  "main": "./lib/nodecr.js",
+  "main": "./lib/tesseract.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/joscha/nodecr/"
+    "url": "https://github.com/desmondmorris/node-tesseract/"
   },
   "keywords": [
     "tesseract",
