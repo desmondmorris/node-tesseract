@@ -1,0 +1,12 @@
+box: wercker/nodejs
+# Build definition
+build:
+
+  steps:
+    - script:
+        name: install tesseract
+        code: |
+          sudo apt-get update -qq
+          sudo apt-get install -qq tesseract-ocr
+    - npm-install
+    - npm-test
