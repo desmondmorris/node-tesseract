@@ -4,6 +4,10 @@
 
 A simple wrapper for the Tesseract OCR package for node.js
 
+## Requirements
+
+* Tesseract 3.01 or higher is needed for this to work
+
 ## Installation
 npm install node-tesseract
 
@@ -17,7 +21,7 @@ npm install node-tesseract
 var tesseract = require('node-tesseract');
 
 // Recognize text of any language in any format
-nodecr.process(__dirname + '/path/to/image.jpg',function(err, text) {
+tesseract.process(__dirname + '/path/to/image.jpg',function(err, text) {
 	if(err) {
 		console.error(err);
 	} else {
@@ -26,7 +30,7 @@ nodecr.process(__dirname + '/path/to/image.jpg',function(err, text) {
 });
 
 // Recognize German text in a single uniform block of text
-nodecr.process(__dirname + '/path/to/image.jpg',function(err, text) {
+tesseract.process(__dirname + '/path/to/image.jpg',function(err, text) {
 	if(err) {
 		console.error(err);
 	} else {
@@ -34,16 +38,16 @@ nodecr.process(__dirname + '/path/to/image.jpg',function(err, text) {
 	}
 }, 'deu', 6);
 
-// Recognise text of any language in any format but preprocess the image
+// Recognize text of any language in any format but preprocess the image
 // with ImageMagick 'convert' (This requires ImageMagick to be installed)
 
-// You can write and use your own preprocessors easily, just have a look at lib/nodecr.js
-nodecr.process(__dirname + '/path/to/image.jpg',function(err, text) {
+// You can write and use your own preprocessors easily, just have a look at lib/tesseract.js
+tesseract.process(__dirname + '/path/to/image.jpg',function(err, text) {
 	if(err) {
 		console.error(err);
 	} else {
 		console.log(text);
 	}
 	console.log(text);
-}, null, null, null, nodecr.preprocessors.convert);
+}, null, null, null, tesseract.preprocessors.convert);
 ```

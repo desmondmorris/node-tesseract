@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "author": "Desmond Morris <hi@desmondmorris.com>",
   "description": "A simple wrapper for the Tesseract OCR package",
-  "main": "./lib/tesseract.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/desmondmorris/node-tesseract/"
