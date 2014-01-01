@@ -1,7 +1,7 @@
 {
   "name": "node-tesseract",
-  "version": "0.0.4",
-  "author": "Joscha Feth <joscha@feth.com>, Desmond Morris <hi@desmondmorris.com>",
+  "version": "0.0.2",
+  "author": "Desmond Morris <hi@desmondmorris.com>",
   "description": "A simple wrapper for the Tesseract OCR package",
   "main": "./lib/tesseract.js",
   "repository": {

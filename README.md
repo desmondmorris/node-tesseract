@@ -6,17 +6,15 @@ A simple wrapper for the Tesseract OCR package for node.js
 npm install node-tesseract
 
 ## Versions
-* **0.0.4**: Changed name to nodecr and published node module (formerly node-tesseract)
-* **0.0.3**: Added support for custom preprocessors, OTB Preprocessor using ImageMagick 'convert'
-* **0.0.2**: Refactored to support tesseract 3.01, added language parameter, config parameter, documentation
-* **0.0.1**: Initial version from Desmond Morris
+* **0.0.2**: Pull is in changes by joscha including: refactored to support tesseract 3.01, added language parameter, config parameter, documentation, Added support for custom preprocessors, OTB Preprocessor using ImageMagick 'convert'
+* **0.0.1**: Initial version
 
 ## Usage
 
 ```JavaScript
-var nodecr = require('nodecr');
+var tesseract = require('node-tesseract');
 
-// Recognise text of any language in any format
+// Recognize text of any language in any format
 nodecr.process(__dirname + '/path/to/image.jpg',function(err, text) {
 	if(err) {
 		console.error(err);
@@ -25,7 +23,7 @@ nodecr.process(__dirname + '/path/to/image.jpg',function(err, text) {
 	}
 });
 
-// Recognise German text in a single uniform block of text
+// Recognize German text in a single uniform block of text
 nodecr.process(__dirname + '/path/to/image.jpg',function(err, text) {
 	if(err) {
 		console.error(err);
