@@ -12,6 +12,7 @@ A simple wrapper for the Tesseract OCR package for node.js
 npm install node-tesseract
 
 ## Changelog
+* **0.2.1**: Strips leading & trailing whitespace from output by default
 * **0.2.0**: Adds ability to pass options via a configuration object.
 * **0.1.1**: Updates tmp module.
 * **0.1.0**: Removes preprocessing functionatlity.  See #3.
