@@ -38,17 +38,4 @@ tesseract.process(__dirname + '/path/to/image.jpg',function(err, text) {
 		console.log(text);
 	}
 }, 'deu', 6);
-
-// Recognize text of any language in any format but preprocess the image
-// with ImageMagick 'convert' (This requires ImageMagick to be installed)
-
-// You can write and use your own preprocessors easily, just have a look at lib/tesseract.js
-tesseract.process(__dirname + '/path/to/image.jpg',function(err, text) {
-	if(err) {
-		console.error(err);
-	} else {
-		console.log(text);
-	}
-	console.log(text);
-}, null, null, null, tesseract.preprocessors.convert);
 ```
