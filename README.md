@@ -11,16 +11,6 @@ A simple wrapper for the Tesseract OCR package for node.js
 ## Installation
 npm install node-tesseract
 
-## Changelog
-* **0.2.2**: Adds test converage to utils module
-* **0.2.1**: Strips leading & trailing whitespace from output by default
-* **0.2.0**: Adds ability to pass options via a configuration object.
-* **0.1.1**: Updates tmp module.
-* **0.1.0**: Removes preprocessing functionatlity.  See #3.
-* **0.0.3**: Adds basic test coverage for process method
-* **0.0.2**: Pulls in changes by [joscha](https://github.com/joscha) including: refactored to support tesseract 3.01, added language parameter, config parameter, documentation, Added support for custom preprocessors, OTB Preprocessor using ImageMagick 'convert'
-* **0.0.1**: Initial version
-
 ## Usage
 
 ```JavaScript
@@ -50,3 +40,13 @@ tesseract.process(__dirname + '/path/to/image.jpg', options, function(err, text)
 	}
 });
 ```
+
+## Changelog
+* **0.2.2**: Adds test converage to utils module
+* **0.2.1**: Strips leading & trailing whitespace from output by default
+* **0.2.0**: Adds ability to pass options via a configuration object.
+* **0.1.1**: Updates tmp module.
+* **0.1.0**: Removes preprocessing functionatlity.  See #3.
+* **0.0.3**: Adds basic test coverage for process method
+* **0.0.2**: Pulls in changes by [joscha](https://github.com/joscha) including: refactored to support tesseract 3.01, added language parameter, config parameter, documentation, Added support for custom preprocessors, OTB Preprocessor using ImageMagick 'convert'
+* **0.0.1**: Initial version
