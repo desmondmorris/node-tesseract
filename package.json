@@ -1,6 +1,6 @@
 {
   "name": "node-tesseract",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "author": "Desmond Morris <hi@desmondmorris.com>",
   "description": "A simple wrapper for the Tesseract OCR package",
   "main": "index.js",
