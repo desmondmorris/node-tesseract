@@ -9,7 +9,7 @@ describe('process', function(){
 
     var testImage = __dirname + '/test.png';
 
-    tesseract.process(testImage,function(err, text) {
+    tesseract.process(testImage, function(err, text) {
 
       // Get rid of any extra whitespace
       var trimmed = text
