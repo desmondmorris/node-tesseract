@@ -1,7 +1,7 @@
 'use strict';
 
 var tesseract = require('../lib/tesseract');
-var assert = require('assert');
+var should = require('should');
 
 
 describe('process', function(){
@@ -10,7 +10,7 @@ describe('process', function(){
     var testImage = __dirname + '/test.png';
 
     tesseract.process(testImage, function(err, text) {
-      assert.equal(text, 'node-tesseract');
+      text.should.equal('node-tesseract');
       done();
     });
 
