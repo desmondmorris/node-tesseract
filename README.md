@@ -1,6 +1,6 @@
 # Tesseract for node.js
 
-[![NPM](https://nodei.co/npm/node-tesseract.png)](https://nodei.co/npm/node-tesseract/)
+[![NPM](https://nodei.co/npm/node-tesseract.png)](https://nodei.co/npm/node-tesseract/) [![wercker status](https://app.wercker.com/status/c0f90816b242c3babc43e516cee94244 "wercker status")](https://app.wercker.com/project/bykey/c0f90816b242c3babc43e516cee94244)
 
 A simple wrapper for the Tesseract OCR package for node.js
 
