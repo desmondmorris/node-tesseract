@@ -11,7 +11,8 @@ A simple wrapper for the Tesseract OCR package for node.js
 ## Installation
 npm install node-tesseract
 
-## Versions
+## Changelog
+* **0.1.1**: Updates tmp module.
 * **0.1.0**: Removes preprocessing functionatlity.  See #3.
 * **0.0.3**: Adds basic test coverage for process method
 * **0.0.2**: Pulls in changes by [joscha](https://github.com/joscha) including: refactored to support tesseract 3.01, added language parameter, config parameter, documentation, Added support for custom preprocessors, OTB Preprocessor using ImageMagick 'convert'
