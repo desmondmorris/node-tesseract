@@ -33,11 +33,17 @@ tesseract.process(__dirname + '/path/to/image.jpg',function(err, text) {
 });
 
 // Recognize German text in a single uniform block of text
-tesseract.process(__dirname + '/path/to/image.jpg',function(err, text) {
+
+var options = {
+	l: 'deu',
+	psm: 6
+};
+
+tesseract.process(__dirname + '/path/to/image.jpg', options, function(err, text) {
 	if(err) {
 		console.error(err);
 	} else {
 		console.log(text);
 	}
-}, 'deu', 6);
+});
 ```
