@@ -9,7 +9,17 @@ A simple wrapper for the Tesseract OCR package for node.js
 * Tesseract 3.01 or higher is needed for this to work
 
 ## Installation
-npm install node-tesseract
+There is a hard dependency on the [Tesseract project](https://code.google.com/p/tesseract-ocr/). You'll need to install this first, there are instructions for various platforms on the project site, but for Mac there is a very easy solution assuming you have [Homebrew](http://brew.sh/) installed (which you should!):
+
+    brew install tesseract --all-languages
+    
+The above will install all of the language packages available, if you don't need them all you can remove the `--all-languages` flag and install them manually, by downloading them to your local machine and then exposing the `TESSDATA_PREFIX` variable into your path (obviously indicating the full path to the data's location):
+
+    export TESSDATA_PREFIX=~/Downloads/
+
+You can then go about installing the node-module to expose the JavaScript API:
+
+    npm install node-tesseract
 
 ## Usage
 
