@@ -15,11 +15,3 @@ describe('Tests merge helper', function () {
     objC.should.have.property('d', 'D');
   });
 });
-
-describe('Tests trim helper', function () {
-  it('string should have no leading or trailing whitespace', function () {
-    var str = '  test string  ';
-    utils.trim(str).should.equal('test string');
-  });
-});
-

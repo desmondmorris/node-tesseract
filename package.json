@@ -14,7 +14,7 @@
     "text recognition"
   ],
   "dependencies": {
-    "tmp": ">= 0.0.23"
+    "node-uuid": "^1.4.1"
   },
   "devDependencies": {
     "mocha": "~1.16.0",

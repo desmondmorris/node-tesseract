@@ -10,7 +10,7 @@ describe('process', function(){
     var testImage = __dirname + '/test.png';
 
     tesseract.process(testImage, function(err, text) {
-      text.should.equal('node-tesseract');
+      text.trim().should.equal('node-tesseract');
       done();
     });
 
