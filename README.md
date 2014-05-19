@@ -53,6 +53,7 @@ tesseract.process(__dirname + '/path/to/image.jpg', options, function(err, text)
 ```
 
 ## Changelog
+* **0.2.6**: Catches exception when deleting tmp files that do not exist
 * **0.2.5**: Preserves whitespace and replaces tmp module
 * **0.2.4**: Removes console logging for messaging
 * **0.2.3**: The ability to set the binary path via the config object.  Better installation documentation.
