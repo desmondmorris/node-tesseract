@@ -9,7 +9,7 @@ A simple wrapper for the Tesseract OCR package for node.js
 * Tesseract 3.01 or higher is needed for this to work
 
 ## Installation
-There is a hard dependency on the [Tesseract project](https://code.google.com/p/tesseract-ocr/).  You can find installation instructions for various platforms on the project site. For Homebrew users, the installation is quick and easy.
+There is a hard dependency on the [Tesseract project](https://github.com/tesseract-ocr/tesseract).  You can find installation instructions for various platforms on the project site. For Homebrew users, the installation is quick and easy.
 
     brew install tesseract --all-languages
 
