@@ -11,7 +11,7 @@ A simple wrapper for the Tesseract OCR package for node.js
 ## Installation
 There is a hard dependency on the [Tesseract project](https://code.google.com/p/tesseract-ocr/).  You can find installation instructions for various platforms on the project site. For Homebrew users, the installation is quick and easy.
 
-    brew install tesseract --all-languages
+    brew install tesseract --with-all-languages
 
 The above will install all of the language packages available, if you don't need them all you can remove the `--all-languages` flag and install them manually, by downloading them to your local machine and then exposing the `TESSDATA_PREFIX` variable into your path:
 
