@@ -40,6 +40,8 @@ tesseract.process(__dirname + '/path/to/image.jpg',function(err, text) {
 var options = {
 	l: 'deu',
 	psm: 6,
+	hocr: false,
+	tsv: false,
 	binary: '/usr/local/bin/tesseract'
 };
 
